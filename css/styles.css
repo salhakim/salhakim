@@ -1,3 +1,8 @@
 body {
-	background: #ccc;
+	background: #eee;
+}
+h1, h2, h3 {
+	text-transform: uppercase;
+	font-family: sans-serif;
+	letter-spacing: 1px;
 }
