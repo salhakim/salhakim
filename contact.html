@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contact - Sal Hakim Site</title>
+	</head>
+	<body>
+		<h1>Contact Me</h1>
+		<address>
+			<a href="mailto:salhakim@outlook.com">Spam Outlook Address</a>
+			<a href="tel:+13115552368">311.555.2368</a>
+		</address>
+		<hr>
+		<form action="mailto:info@salhakim.com" method="post" enctype="text/plain">
+			<ul>
+				<li>
+					<label for="name">Name:</label>
+					<input type="text" name="name" value="">
+				</li>
+				<li>
+					<label for="email">Your Email:</label>
+					<input type="email" name="email" value="">
+				</li>
+				<li>
+					<label for="phone">Number: ex 480-999-1000</label>
+					<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       				required>
+				</li>
+				<li>
+					<label for="company">Company:</label>
+					<input type="text" name="company" value="">
+				</li>
+				<li>
+					<textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+					<input type="submit" name="">
+				</li>
+		</form>
+	</body>
+</html>
